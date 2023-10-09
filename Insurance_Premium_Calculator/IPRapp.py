@@ -11,7 +11,7 @@ gender_factor = {
 }
 smoking_factor = 1.3
 
-#Page layout and Name
+#Page layout, Name and icon
 st.set_page_config(layout="wide", page_title="Insurance Premium App", page_icon="web-icon.png")
 
 #Header
