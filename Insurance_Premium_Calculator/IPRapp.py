@@ -18,7 +18,7 @@ st.set_page_config(layout="wide", page_title="Insurance Premium App", page_icon=
 st.title("INSURANCE PREMIUM CALCULATOR")
 
 #Value from User 
-age = st.number_input("Enter your age: ", value=0)
+age = st.number_input("Enter your age: ", min_value=0, max_value=85, value=0)
 health_status = st.text_input("Enter your health status (good/poor): ").lower()
 coverage_amount = st.number_input("Enter the coverage amount: ", value=0)
 gender = st.selectbox("Select your gender: ", ("male", "female"))
